@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Khadija-Laamiri/e-banking-front-manifest
     targetRevision: HEAD
-    path: ./
+    path: manifest
   destination:
     server: https://kubernetes.default.svc
     namespace: e-banking-front
