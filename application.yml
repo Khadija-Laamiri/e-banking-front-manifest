@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: e-banking-app
+  name: e-banking
   namespace: e-banking-front
 spec:
-  project: e-banking-app
+  project: e-banking
   source:
     repoURL: https://github.com/Khadija-Laamiri/e-banking-front-manifest
     targetRevision: HEAD
