@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: e-bankingFront
-  namespace: e-banking-front
+  namespace: argocd
 spec:
   project: e-banking
   source:
