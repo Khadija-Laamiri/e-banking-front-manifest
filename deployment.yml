@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: e-banking-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: e-banking-app
+  template:
+    metadata:
+      labels:
+        app: e-banking-app
+    spec:
+      containers:
+        - name: e-banking-app
+          image: laamirikhadija/e-banking-front
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
