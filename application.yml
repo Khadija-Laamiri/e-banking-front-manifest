@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: e-bankingFront
+  name: ebankingFront
   namespace: argocd
 spec:
   project: e-banking
