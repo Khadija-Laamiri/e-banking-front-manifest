@@ -17,4 +17,4 @@ spec:
           image: laamirikhadija/e-banking-front
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 4002
