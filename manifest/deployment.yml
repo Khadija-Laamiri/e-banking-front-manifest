@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: e-banking-app
-          image: laamirikhadija/e-banking-front:e765309976b60779b245b6a714a3d9b14c45add4
+          image: laamirikhadija/e-banking-front:7bf532f5868899a1b5d8b96ddbe7563278dd4720
           imagePullPolicy: Always
           ports:
             - containerPort: 80
